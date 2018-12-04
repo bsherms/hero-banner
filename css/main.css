@@ -7,6 +7,10 @@ html {
   box-sizing: inherit;
 }
 
+body {
+  margin: 0;
+}
+
 .img-flex {
   display: block;
   width: 100%;
@@ -29,7 +33,7 @@ p {
   font-style: italic;
 }
 
-card-body {
+.card-body {
   padding-left: 1.5em;
   padding-right: 1.5em;
   width: 100%;
@@ -38,4 +42,10 @@ card-body {
   left: 50%;
   bottom: 1.5 rem;
   transform: translatex(-50%);
+}
+
+.banner {
+  overflow: hidden;
+  position: relative;
+  max-height: 500px;
 }
