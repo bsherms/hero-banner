@@ -12,9 +12,12 @@ html {
   width: 100%;
 }
 
+span {
+  background-color: rgba(0, 0, 0, .5);
+}
+
 h2 {
   color: #fff;
-  background-color: rgba(0, 0, 0, .5);
   font-size: 4rem;
   position: relative;
   top: 10px;
@@ -24,4 +27,15 @@ h2 {
 p {
   font-size: 2rem;
   font-style: italic;
+}
+
+card-body {
+  padding-left: 1.5em;
+  padding-right: 1.5em;
+  width: 100%;
+  max-width: 50em;
+  position: absolute;
+  left: 50%;
+  bottom: 1.5 rem;
+  transform: translatex(-50%);
 }
